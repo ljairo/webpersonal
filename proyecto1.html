@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Gestión de Ambulancias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Iconos FontAwesome -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h3,
+        h4 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .texto {
+            flex: 1;
+            margin-right: 40px;
+        }
+
+        .imagen {
+            flex: 1;
+            max-width: 40%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .imagen img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .imagen img:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer a:hover {
+            color: #ddd;
+        }
+
+        .redes {
+            margin-top: 20px;
+        }
+        .imagenes-horizontales img:hover {
+    transform: scale(1.1);
+}
+
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center; margin-top: 40px;">Aplicativo Web Gestión de Ambulancias - EMED</h1>
+
+    <div class="contenedor">
+        <div class="texto">
+            <p>Este proyecto se centra en un aplicativo web diseñado para gestionar y reportar el uso de ambulancias y el personal asignado a ellas. Diariamente, las 59 microredes de la región Huaura deben registrar sus salidas en este sistema.</p>
+            <h3>Interfaz del usuario</h3>
+            <p>El interfaz de usuario del aplicativo web incluye:</p>
+            <ul>
+                <li><strong>Formulario de Registro:</strong> Permite a las microredes ingresar los detalles de cada salida de ambulancia, incluyendo la fecha, hora, personal involucrado, y motivo de la salida, entre otros.</li>
+                <li><strong>Informe de Reportes:</strong> Presenta un resumen detallado de todos sus reportes registrados, ofreciendo una visión general del uso de las ambulancias y el desempeño del personal a lo largo del tiempo.</li>
+            </ul>
+        </div>
+        <div class="imagen">
+            <img src="img/proye.png" alt="Imagen 1">
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="texto">
+            <h3>Interfaz del Administrador</h3>
+            <section>
+                <h4>Interfaz de Reportes</h4>
+                <p>En esta sección, se presentan los 59 reportes correspondientes a cada una de las microredes. Cada reporte muestra la información detallada de las salidas de ambulancia registradas. Además, se indica si el reporte fue completado a la hora establecida o si fue llenado posteriormente.</p>
+            </section>
+            <section>
+                <h4>Interfaz de Gráficos Estadísticos</h4>
+                <ul>
+                    <li><strong>Barra de Porcentaje:</strong> Muestra el porcentaje de microredes que han completado su registro diario, ofreciendo una rápida visualización del progreso general.</li>
+                    <li><strong>Gráfico de Barras:</strong> Detalla la cantidad de personal de salud requerido en las salidas de ambulancia de ese día, proporcionando una visión de las necesidades de recursos humanos.</li>
+                    <li><strong>Línea de Tiempo:</strong> Presenta un registro temporal de las salidas de ambulancia, indicando cuántos registros se han realizado a lo largo del día.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Interfaz de Administración de Usuarios</h4>
+                <p>Este interfaz permite a los usuarios con permisos adecuados crear nuevas cuentas de usuario para las microredes, facilitando la gestión y asignación de accesos a cada entidad correspondiente.</p>
+            </section>
+                        <!-- ... (el resto del código se mantiene igual) -->
+
+            <!-- ... (el resto del código se mantiene igual) -->
+
+<div class="imagenes-horizontales" style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <img src="img/for2.jpg" alt="Imagen 1" style="width: 30%; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <img src="img/for3.jpg" alt="Imagen 2" style="width: 30%; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <img src="img/for4.jpg" alt="Imagen 3" style="width: 30%; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+</div>
+
+<!-- ... (el resto del código se mantiene igual) -->
+
+
+            <!-- ... (el resto del código se mantiene igual) -->
+
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center; margin-top: 40px;">Todos los derechos reservados © - 2024</p>
+        <div class="redes">
+            <a href="https://github.com/ljairo"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jairo-luna-5ab55621b/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
